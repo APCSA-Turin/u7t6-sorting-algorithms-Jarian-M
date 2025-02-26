@@ -17,7 +17,11 @@ public class TestInsertionSort{
     public void testInsertionSort_AlreadySortedArray() {
         int[] arr = {1, 2, 3, 4, 5};
         int[] expected = {1, 2, 3, 4, 5};
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> upstream/main
         assertArrayEquals(expected, InsertionSort.insertionSort(arr), "Already sorted array should remain unchanged");
     }
 
@@ -25,7 +29,11 @@ public class TestInsertionSort{
     public void testInsertionSort_ReverseSortedArray() {
         int[] arr = {5, 4, 3, 2, 1};
         int[] expected = {1, 2, 3, 4, 5};
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> upstream/main
         assertArrayEquals(expected, InsertionSort.insertionSort(arr), "Reverse sorted array should be sorted");
     }
 
@@ -33,7 +41,11 @@ public class TestInsertionSort{
     public void testInsertionSort_SingleElementArray() {
         int[] arr = {42};
         int[] expected = {42};
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> upstream/main
         assertArrayEquals(expected, InsertionSort.insertionSort(arr), "Single-element array should remain unchanged");
     }
 
@@ -41,7 +53,11 @@ public class TestInsertionSort{
     public void testInsertionSort_EmptyArray() {
         int[] arr = {};
         int[] expected = {};
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> upstream/main
         assertArrayEquals(expected, InsertionSort.insertionSort(arr), "Empty array should remain unchanged");
     }
 
