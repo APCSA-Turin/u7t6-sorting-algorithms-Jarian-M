@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestInsertionSort" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-02-26T06:17:36" hostname="codespaces-c5589b" time="0.08">
+<testsuite name="com.example.project.TestInsertionSort" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-02-26T13:22:34" hostname="codespaces-c5589b" time="0.136">
   <properties/>
-  <testcase name="testInsertionSort_EmptyArray()" classname="com.example.project.TestInsertionSort" time="0.015"/>
-  <testcase name="testInsertionSort_ReverseSortedArray()" classname="com.example.project.TestInsertionSort" time="0.003"/>
-  <testcase name="testInsertionSort_UnsortedArray()" classname="com.example.project.TestInsertionSort" time="0.003"/>
+  <testcase name="testInsertionSort_EmptyArray()" classname="com.example.project.TestInsertionSort" time="0.036"/>
+  <testcase name="testInsertionSort_ReverseSortedArray()" classname="com.example.project.TestInsertionSort" time="0.009"/>
+  <testcase name="testInsertionSort_UnsortedArray()" classname="com.example.project.TestInsertionSort" time="0.002"/>
   <testcase name="testInsertionSort_AlreadySortedArray()" classname="com.example.project.TestInsertionSort" time="0.004"/>
-  <testcase name="testInsertionSort_SingleElementArray()" classname="com.example.project.TestInsertionSort" time="0.001"/>
-  <testcase name="testSelectionSort_Words()" classname="com.example.project.TestInsertionSort" time="0.038"/>
+  <testcase name="testInsertionSort_SingleElementArray()" classname="com.example.project.TestInsertionSort" time="0.004"/>
+  <testcase name="testSelectionSort_Words()" classname="com.example.project.TestInsertionSort" time="0.057"/>
   <system-out><![CDATA[INSERTION SORT: NUMBER OF ITERATIONS: 0
 INSERTION SORT: NUMBER OF ITERATIONS: 10
 INSERTION SORT: NUMBER OF ITERATIONS: 5
 INSERTION SORT: NUMBER OF ITERATIONS: 0
 INSERTION SORT: NUMBER OF ITERATIONS: 0
+INSERTION SORT: NUMBER OF ITERATIONS: 257349
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

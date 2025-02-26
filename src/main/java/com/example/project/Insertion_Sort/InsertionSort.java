@@ -2,21 +2,14 @@ package com.example.project.Insertion_Sort;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.Scanner;
-
 import com.example.project.Selection_Sort.SelectionSort;
 
-=======
-import java.util.Scanner;
-
->>>>>>> upstream/main
 public class InsertionSort {
 
     // PART A. implementing insertion sort
     public static int[] insertionSort(int[] elements) {
-<<<<<<< HEAD
         int count = 0;
         for(int i = 1; i < elements.length; i++) {
             int ind = i;
@@ -63,20 +56,10 @@ public class InsertionSort {
         InsertionSort.selectionSortWordList(words1);
         ArrayList<String> words2 = SelectionSort.loadWordsInto(new ArrayList<String>());
         InsertionSort.insertionSortWordList(words2);
-
-=======
-        return elements;
-    }
-
-   
-    public static void selectionSort(int[] elements) {
-        
->>>>>>> upstream/main
     }
 
     // PART B. sorting a 1000-word list
     public static ArrayList<String> insertionSortWordList(ArrayList<String> words) {
-<<<<<<< HEAD
         int count = 0;
         for(int i = 1; i < words.size(); i++) {
             int ind = i;
@@ -89,13 +72,10 @@ public class InsertionSort {
             }
         }
         System.out.println("INSERTION SORT: NUMBER OF ITERATIONS: " + count);
-=======
->>>>>>> upstream/main
         return words;
     }
 
     public static void selectionSortWordList(ArrayList<String> words) {
-<<<<<<< HEAD
         int count = 0;
         for (int i = 0; i < words.size() - 1; i++) {
             int min = i;
@@ -109,8 +89,6 @@ public class InsertionSort {
             words.set(i, words.set(min, words.get(i)));
         }
         System.out.println("SELECTION SORT: NUMBER OF ITERATIONS: " + count);
-=======
->>>>>>> upstream/main
     }
 
     public static ArrayList<String> loadWordsInto(ArrayList<String> wordList) {
@@ -125,9 +103,4 @@ public class InsertionSort {
         }
         return wordList;
     }
-<<<<<<< HEAD
-=======
-
-   
->>>>>>> upstream/main
 }
