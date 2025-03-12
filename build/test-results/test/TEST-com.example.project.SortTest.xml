@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.SortTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-26T13:22:34" hostname="codespaces-c5589b" time="0.234">
+<testsuite name="com.example.project.SortTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-12T12:27:09" hostname="codespaces-c5589b" time="0.545">
   <properties/>
-  <testcase name="testSelectionSort_16Elements_NegativeAndPositiveNumbers()" classname="com.example.project.SortTest" time="0.072"/>
-  <testcase name="testSelectionSort_10Elements_WithDuplicates()" classname="com.example.project.SortTest" time="0.004"/>
-  <testcase name="testSelectionSort_Words()" classname="com.example.project.SortTest" time="0.112"/>
-  <testcase name="testSelectionSort_1000Elements_RandomNumbers()" classname="com.example.project.SortTest" time="0.012"/>
-  <testcase name="testSelectionSort_10Elements_SortedCorrectly()" classname="com.example.project.SortTest" time="0.006"/>
+  <testcase name="testSelectionSort_16Elements_NegativeAndPositiveNumbers()" classname="com.example.project.SortTest" time="0.113"/>
+  <testcase name="testSelectionSort_10Elements_WithDuplicates()" classname="com.example.project.SortTest" time="0.001"/>
+  <testcase name="testSelectionSort_Words()" classname="com.example.project.SortTest" time="0.33"/>
+  <testcase name="testSelectionSort_1000Elements_RandomNumbers()" classname="com.example.project.SortTest" time="0.037"/>
+  <testcase name="testSelectionSort_10Elements_SortedCorrectly()" classname="com.example.project.SortTest" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
