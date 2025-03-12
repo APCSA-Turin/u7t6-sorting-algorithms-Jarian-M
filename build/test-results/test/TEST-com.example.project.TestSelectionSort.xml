@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.project.TestSelectionSort" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-12T12:34:08" hostname="codespaces-c5589b" time="0.135">
+  <properties/>
+  <testcase name="testSelectionSort_16Elements_NegativeAndPositiveNumbers()" classname="com.example.project.TestSelectionSort" time="0.021"/>
+  <testcase name="testSelectionSort_10Elements_WithDuplicates()" classname="com.example.project.TestSelectionSort" time="0.001"/>
+  <testcase name="testSelectionSort_Words()" classname="com.example.project.TestSelectionSort" time="0.078"/>
+  <testcase name="testSelectionSort_1000Elements_RandomNumbers()" classname="com.example.project.TestSelectionSort" time="0.019"/>
+  <testcase name="testSelectionSort_10Elements_SortedCorrectly()" classname="com.example.project.TestSelectionSort" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

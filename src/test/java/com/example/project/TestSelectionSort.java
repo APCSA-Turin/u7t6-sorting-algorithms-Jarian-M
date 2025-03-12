@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 import com.example.project.Selection_Sort.*;
 
-class SortTest {
+class TestSelectionSort {
 
     @Test
     void testSelectionSort_10Elements_SortedCorrectly() {
